@@ -1,0 +1,19 @@
+{
+    "name": "nodeJS-Rest-Api",
+    "version": "1.0.0",
+    "description": "The most basic version of a nodejs Rest API, for school works or simple applications",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "Diego Armando Payan Lopez",
+    "license": "",
+    "dependencies": {
+        "express": "^4.16.4",
+        "mysql": "^2.16.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
