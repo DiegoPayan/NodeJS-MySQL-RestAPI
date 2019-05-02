@@ -14,7 +14,6 @@ router.post('/', (req, res) => {
             if (!error) {
                 let idUsuario;
                 typeof result[0] !== 'undefined' ? idUsuario = result[0]['id'] : idUsuario = 0;
-
                 if (idUsuario !== 0) {
                     const token = jwt.sign({ idUsuario, username }, config.secret, { expiresIn: '1h' });
                     res.json({
