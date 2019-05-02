@@ -8,9 +8,11 @@
     },
     "keywords": [],
     "author": "Diego Armando Payan Lopez",
-    "license": "",
+    "license": "AFL-1.1",
+    "repository": "https://github.com/DiegoPayan/NodeJS-MySQL-RestAPI",
     "dependencies": {
         "express": "^4.16.4",
+        "jsonwebtoken": "^8.5.1",
         "mysql": "^2.16.0"
     },
     "devDependencies": {

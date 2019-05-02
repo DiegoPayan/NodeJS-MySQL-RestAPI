@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const mysqlConnection = mysql.createConnection({
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'root',
-    password: '',
-    database: 'la_vendimia',
+    password: 'payan',
+    database: 'meSafe',
     multipleStatements: true
 });
 
@@ -13,7 +13,7 @@ mysqlConnection.connect((err) => {
         console.log(err);
         return;
     } else {
-        console.log("Conexion exitosa");
+        console.log("Conexion BD exitosa");
     }
 });
 
